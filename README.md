@@ -1,4 +1,4 @@
-# Metagenome viral tool assessment
+# Wastewater Metagenomic Viral Detection Tool Assessment
 
 ## CDC_Software_Assessment_Presentation.md
 This is a slide-like presentation for the assessment.
