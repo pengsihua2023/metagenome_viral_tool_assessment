@@ -257,9 +257,11 @@ Compatible (long reads more beneficial for large virus reconstruction)
 - VirSorter2: VirSort2 database with 12 Gb. It mainly consists of viral sequences + a small amount of non-viral training data.  
 - viralFlye: Pfam database  
 
-**Strategy**: VirSorter2 + DeepVirFinder + viralFlye voting
+**Strategy**:  
+- Short reads: VirSorter2 + DeepVirFinder voting  
+- Long reads: VirSorter2 + DeepVirFinder + viralFlye voting  
 
-**Output**: Smaller but more reliable candidate set
+
 
 ### KrakenMetaReads-nf: Assembly Before Classification
 
@@ -483,6 +485,7 @@ Full Assessment Report: `metagenome_viral_tool_assessment_rev5.md`
 ---
 
 **End of Presentation. Thank You!**
+
 
 
 
