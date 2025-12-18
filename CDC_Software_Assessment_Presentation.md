@@ -357,11 +357,12 @@ Compatible (long reads more beneficial for large virus reconstruction)
 ### Impact of Database Selection
 
 **RefSeq/Standard Libraries**:
-- ❌ Often underestimate environmental virus and phage diversity
+- ❌ Often underestimate environmental virus and phage diversity, because a large number of viruses in the environmental samples could not be matched.  
+
 
 **RVDB**:
-- ✅ More friendly to viruses (especially environmental viruses and distant sequences)
-- ⚠️ Need to guard against database annotation bias
+- ✅ More friendly to viruses (especially environmental viruses and distant sequences)  
+- ⚠️ Need to guard against database annotation bias, because the sequences in this database are not well annotated.  
 
 **Conclusion**: Database selection directly affects discovery capability
 
@@ -485,6 +486,7 @@ Full Assessment Report: `metagenome_viral_tool_assessment_rev5.md`
 ---
 
 **End of Presentation. Thank You!**
+
 
 
 
