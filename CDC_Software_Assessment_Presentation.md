@@ -201,7 +201,7 @@ December 15, 2025
 - Strong dependency on database coverage
 - Long read errors affect exact k-mer matching
 
-**Usage Recommendation**: Recommend CLARK-S for long reads, requires sufficient memory
+**Usage Recommendation**: Recommend CLARK (standard) for short reads, and CLARK-S for long reads.   
 
 ---
 
@@ -486,6 +486,7 @@ Full Assessment Report: `metagenome_viral_tool_assessment_rev5.md`
 ---
 
 **End of Presentation. Thank You!**
+
 
 
 
