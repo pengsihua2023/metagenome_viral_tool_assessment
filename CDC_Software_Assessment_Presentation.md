@@ -235,7 +235,7 @@ December 15, 2025
 
 ### MLMVD-nf: Multi-Tool Consensus Screening
 
-**Positioning**: Strict filter (trades sensitivity for specificity)
+**Positioning**: Strict filter (achieving higher specificity at the expense of sensitivity)
 
 **Strategy**: VirSorter2 + DeepVirFinder + viralFlye voting
 
@@ -461,6 +461,7 @@ Full Assessment Report: `metagenome_viral_tool_assessment_rev5.md`
 ---
 
 **End of Presentation. Thank You!**
+
 
 
 
