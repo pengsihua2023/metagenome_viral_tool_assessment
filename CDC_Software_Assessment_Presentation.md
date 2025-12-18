@@ -135,6 +135,8 @@ December 15, 2025
 - Supports multiple classifiers (Kraken2, MetaPhlAn, Kaiju, etc.)
 - Automatic adaptation to short/long reads
 
+**Database:** Pre-built Kraken2 viral database
+
 **Read Compatibility**: ✅ Fully Compatible
 
 **Usage Recommendations**: 
@@ -157,6 +159,8 @@ December 15, 2025
 
 **Limitations**: May miss extremely low abundance, database-missing targets
 
+**Database**: RefSeq Bacteria, Archaea and Viruses with the gottcha_db.species.fna.mmi file of 100.35 Gb.
+
 **Usage Recommendation**: Use as "secondary confirmation" tool
 
 ---
@@ -173,6 +177,8 @@ December 15, 2025
 
 **Read Compatibility**: ✅ Compatible (but error rates affect k-mer matching)
 
+**Database:** Sourmash NCBI Viruses database (pre-built)
+
 **Usage Recommendations**: 
 - Coverage/consistency validation
 - Long reads need error correction or use as "coarse validation"
@@ -186,6 +192,8 @@ December 15, 2025
 **Positioning**: Uses only k-mers that uniquely distinguish species
 
 **Variants**: CLARK (standard), CLARK-S (spaced seeds), CLARK-l (lightweight)
+
+**Database:** NCBI RefSeq Virus Database
 
 **Advantages**: Fast speed, good specificity
 
@@ -205,6 +213,8 @@ December 15, 2025
 
 **Core Value**: Produces contigs, bins, MAGs usable for evolutionary/functional analysis
 
+**Database:** Kraken2 Viral Database
+
 **Read Compatibility**: 
 - ✅ Short reads fully compatible
 - ✅ Hybrid assembly friendly
@@ -222,6 +232,8 @@ December 15, 2025
 
 **Core Objective**: Improve discovery capability for environmental/distant viruses
 
+**Database:** RVDB DNA (Virual classification)+RVDB protein (Protein alignment)
+
 **Advantages**: 
 - RVDB database optimized for viruses
 - Protein-level search discovers distant sequences
@@ -237,6 +249,11 @@ December 15, 2025
 
 **Positioning**: Strict filter (achieving higher specificity at the expense of sensitivity)
 
+**Database:** 
+    1. DeepVirFinder does not rely on any viral reference sequence database.
+    2. VirSorter2: VirSort2 database with 12 Gb. It mainly consists of viral sequences + a small amount of non-viral training data.
+    3. viralFlye: Pfam database
+
 **Strategy**: VirSorter2 + DeepVirFinder + viralFlye voting
 
 **Output**: Smaller but more reliable candidate set
@@ -244,6 +261,8 @@ December 15, 2025
 ### KrakenMetaReads-nf: Assembly Before Classification
 
 **Positioning**: Uses long contigs to reduce classification ambiguity
+
+**Database:** Kraken2 viral reference database
 
 **Advantage**: Particularly suitable for giant viruses/large genome fragment positioning
 
@@ -461,6 +480,7 @@ Full Assessment Report: `metagenome_viral_tool_assessment_rev5.md`
 ---
 
 **End of Presentation. Thank You!**
+
 
 
 
