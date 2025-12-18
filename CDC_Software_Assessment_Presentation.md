@@ -239,8 +239,10 @@ December 15, 2025
 - Protein-level search discovers distant sequences
 - Particularly suitable for large viruses like NCLDV
 
-**Read Compatibility**: ✅ Compatible (long reads more beneficial for large virus reconstruction)
+**Read Compatibility**: 
+Compatible (long reads more beneficial for large virus reconstruction)
 **Hierarchical consensus strategy:** This is a multi-level consensus analysis workflow that improves the accuracy of viral classification through cross-validation using multiple tools.  
+
 ---
 
 ## Slide 14: MLMVD-nf & KrakenMetaReads-nf
@@ -481,6 +483,7 @@ Full Assessment Report: `metagenome_viral_tool_assessment_rev5.md`
 ---
 
 **End of Presentation. Thank You!**
+
 
 
 
